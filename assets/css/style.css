@@ -1,50 +1,37 @@
-#head-container {
-    margin-top: 1%;
+body {
+    line-height: 30px;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    background-color: white;
+    width: 100%;
+    padding: 0px;
+    margin: auto 0;
+    overflow: auto;
+    background-image: url(../images/background.jpg);
 }
 
-#head {
-    text-align: center;
-    background-color: #141f3d;
-    color: white;
-    padding: 2%;
+* {
+    position: relative;
+    box-sizing: border-box;
 }
 
-.panel-custom {
-    background-color: #141f3d !important;
-    color: white !important;
+.jumbotron {
+    text-align:center; 
+    background-color: #ffffff;
+    margin-top: 20px;
+
+
 }
 
-table {
-    margin: 0 auto;
+.panel {
+ background-color: white;   
 }
 
-th {
-    margin: 1% 1% 0 1%;
-    padding: 3% 3% 0 3%;
-    width: 1%;
-}
 
-hr {
-    margin: 1%;
+.panel-body {
+    background-color: white;  
 }
-
-td {
-    margin: 1% 1% 0 1%;
-    padding: 3% 3% 0 3%;
-    width: 1%;
-}
-
-h1 img {
-    width: 5%;
-    padding-bottom: 1%;
-}
-
-.glyphicon-remove {
-    color: darkred;
-    padding-left: 15%;
-}
-
-.form-control:focus {
-    border-color: #141f3d;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #141f3d;
+h1 {color: black;
+    font-size: x-large;
 }
